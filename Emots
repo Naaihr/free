@@ -2,14 +2,6 @@
 print('By Salim')
 
 local emotes = {
-    sleep = 4686925579,
-    flowing = 7465946930,
-    quiet = 7465981288,
-    tantrum = 5104341999,
-    fishing = 3334832150,
-    partier = 6862022283,
-    take = 6797890377,
-    celebrate = 3338097973,
     hero = 5104344710,
     holiday = 5937558680,
     rodeo = 5918728267,
@@ -25,6 +17,11 @@ local emotes = {
     haha = 3337966527,
     curtsy = 4555816777,
     floss = 5917459365,
+    eggbeater = 4265701731,
+    salute = 3333474484,
+    swoosh = 3361481910,
+    goku = 4841403964,
+    breakdance = 5915648917,
 }
 
 local active = {}
