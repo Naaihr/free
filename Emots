@@ -22,6 +22,12 @@ local emotes = {
     swoosh = 3361481910,
     goku = 4841403964,
     breakdance = 5915648917,
+    lean = 3152375249,
+    lay = 3152378852,
+    dance1 = 3189773368,
+    dance2 = 3189776546,
+    greet = 3189777795,
+    praying = 3487719500,
 }
 
 local active = {}
