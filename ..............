@@ -5,23 +5,29 @@ local emotes = {
     hero = 5104344710,
     holiday = 5937558680,
     rodeo = 5918728267,
-    samba = 6869766175,
     hocken = 4940563117,
     ksibox = 7202863182,
     ksi = 7198989668,
     godlike = 3337994105,
     dizzy = 3361426436,
+    samba = 6869766175,
     shy = 3337978742,
     shuffle = 4349242221,
+    swish = 3361481910,
     around = 3303391864,
     haha = 3337966527,
     curtsy = 4555816777,
     floss = 5917459365,
-    eggbeater = 4265701731,
-    swoosh = 3361481910,
+    fasthands = 4265701731,
+    fancy = 3333432454,
     goku = 4841403964,
     breakdance = 5915648917,
     quietwaves = 7465981288,
+    fashionable = 3333331310,
+    sneaky = 3334424322,
+    idol = 4101966434,
+    toprock = 3361276673,
+
 }
 
 local active = {}
@@ -77,3 +83,9 @@ for i,v in pairs(emotes) do
     toprint ..= "/e ".. i.. "\n"
 end
 print(toprint)
+
+game.StarterGui:SetCore("SendNotification",{
+    Title = "🔔Successfully Loaded🔔";
+    Text = "Made By Kingu♥";
+    Duration = 5;
+})
