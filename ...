@@ -3,7 +3,6 @@ print('Kingu')
 local Player = game:GetService("Players").LocalPlayer
 			local Mouse = Player:GetMouse()
 			local SpeedGlitch = false
-			local Wallet = Player.Backpack:FindFirstChild("Wallet")
 
 			local UniversalAnimation = Instance.new("Animation")
 
@@ -32,10 +31,6 @@ local Player = game:GetService("Players").LocalPlayer
 					if SpeedGlitch == true then
 						loadAnimation("rbxassetid://3189777795")
 						wait(1.5)
-						Wallet.Parent = Player.Character
-						wait(0.15)
-						Player.Character:FindFirstChild("Wallet").Parent = Player.Backpack
-						wait(0.05)
 						repeat game:GetService("RunService").Heartbeat:wait()
 							keypress(0x49)
 							game:GetService("RunService").Heartbeat:wait()
