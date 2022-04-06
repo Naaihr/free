@@ -1,5 +1,3 @@
-print('Kingu')
-
 local Player = game:GetService("Players").LocalPlayer
 			local Mouse = Player:GetMouse()
 			local SpeedGlitch = false
@@ -48,33 +46,3 @@ local Player = game:GetService("Players").LocalPlayer
 				Text = "Made By Kingu♥";
 				Duration = 5;
 			})
-			
-ModIDS = {
-    1208096069,
- 
- 
-}
- 
- 
---\ Don't mess with anything below this
-function starnames()
-    for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if table.find(ModIDS, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
-                end
-            end
-        else
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🐰]' .. Player.DisplayName)
-                    end
-                end
-            end
-        end
-    end
-end
-local success,err = pcall(starnames)
-return ModIDS
