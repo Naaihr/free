@@ -2082,8 +2082,8 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
     Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     Toggle.Size = UDim2.new(0, 50, 0, 50)
     Toggle.Font = Enum.Font.Code
-    Toggle.Text = "R"
-    Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+    Toggle.Text = "Toggle"
+    Toggle.TextColor3 = Color3.fromRGB(25,255,190)
     Toggle.TextScaled = true
     Toggle.MouseButton1Down:connect(function()
         game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
@@ -7629,8 +7629,8 @@ elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId 
     Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     Toggle.Size = UDim2.new(0, 50, 0, 50)
     Toggle.Font = Enum.Font.Code
-    Toggle.Text = "R"
-    Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+    Toggle.Text = "Toggle"
+    Toggle.TextColor3 = Color3.fromRGB(25,255,190)
     Toggle.TextScaled = true
     Toggle.MouseButton1Down:connect(function()
         game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
@@ -10548,8 +10548,8 @@ elseif game.PlaceId == 6329844902 then
     Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     Toggle.Size = UDim2.new(0, 50, 0, 50)
     Toggle.Font = Enum.Font.Code
-    Toggle.Text = "R"
-    Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+    Toggle.Text = "Toggle"
+    Toggle.TextColor3 = Color3.fromRGB(25,255,190)
     Toggle.TextScaled = true
     Toggle.MouseButton1Down:connect(function()
         game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
@@ -11578,7 +11578,7 @@ elseif game.PlaceId == 6329844902 then
             end)
         end
     end)
-else
+    else
     game.Players.LocalPlayer:Kick("\224\185\132\224\184\161\224\185\136\224\184\158\224\184\154\224\185\129\224\184\161\224\184\158")
     wait(1)
     game:Shutdown()
